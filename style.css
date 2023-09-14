@@ -1,0 +1,44 @@
+.resim {
+    width: 200px;
+    ;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Dikey ortala */
+    align-items: center;
+    /* Yatay ortala */
+    height: 100vh;
+    /* Sayfanın tamamını kaplayacak şekilde yükseklik ayarla */
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+text {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #003cff;
+    text-align: center;
+}
+
+body {
+    background-image:url('static/img/arti_logo.png');
+    background-size: 500px 50%;
+    background-attachment: fixed;
+    background-color: #f0f0f0; 
+}
+
+.header-content {
+    background-color: #bfebf8; /* Arka plan rengini istediğiniz renk koduyla değiştirin */
+    border-radius: 20px;
+    padding: 20px; /* İçeriği kenar boşluğu eklemek için istediğiniz değeri ayarlayabilirsiniz */
+    }
